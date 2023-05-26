@@ -8,15 +8,19 @@
 
     <body>
         <div id="login">
-            <h1 id="login-header">Login</h1>
-
             <form id="login-form">
-                <p>Usuário</p>
+                <div id="login-header">
+                    <h1 id="login-title" class="login-page-titles">Login</h1>
+                </div>
+                <p class="login-page-titles">Usuário</p>
                 <input type="text" name="username" id="username-field" class="login-form-field">
-                <p>Senha</p>
+                <p class="login-page-titles">Senha</p>
                 <input type="password" name="password" id="password-field" class="login-form-field">
                 <button type="submit" id="login-form-submit" onclick="validateLogin(event)">login</button>
             </form>
+            <div id="login-page-footer">
+                <p class="login-page-titles">Esqueceu sua senha?</p>
+            </div>
         </div>
     </body>
 </html>
