@@ -1,0 +1,98 @@
+body {
+    background-color: #FFFFFF;
+}
+
+#navbar h4, #navbar ul, #navbar-list li , #navbar nav{
+    display: inline-block;
+}
+
+#navbar h4 {
+    margin-left: 10%;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+    margin-right: 200px;
+}
+#navbar li {
+    margin: 0 10px
+    
+}
+
+#navbar-list li a {
+text-decoration: nome;
+color:black;
+text-decoration-line: underline;
+text-decoration-color: blue;
+text-decoration-skip: 10px;
+text-align: center;
+font-size: x-large;
+}
+
+
+.apresentacao {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-top: 12%;
+    text-align: justify;
+    font-size: 55px;
+    
+}
+
+.apresentacao img {
+    width: 30%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 80%;
+    margin-top: 10%;
+}
+
+button{
+    width: 10%;
+    height: 30px;
+    color: #FFFFFF;
+    margin-left: 16%;
+    
+
+}
+
+.icones > div {
+    display: inline-block;
+    margin-right: 0;
+    width: 5%;
+}
+
+.icones img{
+    width: 50%;
+    margin-left: 270%;
+    margin-top: 20%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.sobre-container h1 {
+    margin-top: 5%;
+}
+
+.sobre-container p{
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
