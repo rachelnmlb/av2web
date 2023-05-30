@@ -11,6 +11,10 @@ body {
     background-color: #444464;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #login {
     width: 30%;
     height: 70%;
@@ -29,7 +33,8 @@ body {
 }
 
 #login-form {
-    align-self: flex-start;
+    align-self: center;
+    justify-self: auto;
     display: grid;
     margin-left: 5%;
     margin-top: 5%;
