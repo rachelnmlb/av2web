@@ -7,7 +7,7 @@ function validateLogin(event) {
 
     sessionStorage.setItem('username', username);
 
-    if (username === 'Adson' && password === '1234') {
+    if (username === 'admin' && password === '1234') {
         window.location.href = './index.html';
 
         return;
